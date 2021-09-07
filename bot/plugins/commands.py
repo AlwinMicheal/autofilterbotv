@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} \n <b>➠Cʜᴀɴɴᴇʟ : https://t.me/new_movies_HD_movies</b> \n <b>➠Gʀᴏᴜᴘ : https://t.me/movies_hut_chat</b>
+                caption = f"{file_name} \n @movies_hut_chat
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -48,9 +48,9 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/movies_hut_chat'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/new_movies_HD_movies')
+        InlineKeyboardButton('Source Code 🧾', url ='https://youtube.com/channel/UCHQp1b-syViwgyfw_WVn5Hw')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/movies_hut_chat')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/new_movies_HD_movies')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
